@@ -11,18 +11,22 @@ import travel from '../assets/travel.png'
 function Project() {
       return (
             <div className="px-4 sm:px-0">
-                  <p className="text-3xl sm:text-4xl text-white flex items-center justify-center pb-8 sm:pb-10">
-                        My Projects
-                  </p>
+                  {/* <p className='text-white text-center'>dsjhdishuidh</p> */}
+                  <div className="text-5xl sm:text-5xl md:text-6xl text-zinc-50 w-full px-5 sm:px-10 pt-10 py-2 text-center">
+                        <span className="text-white font-mono text-2xl sm:text-2xl lg:text-6xl">My Projects</span>
+                  </div>
 
                   <div className="max-w-[1100px] w-full mx-auto">
+
+
                         <Swiper
                               className="mySwiper"
                         >
 
                               <SwiperSlide>
-                                    <div className="max-w-[1100px] w-full sm:w-full h-auto sm:h-[450px] pb-5 bg-content flex flex-col sm:flex-row items-center justify-center border border-stone-900 rounded-3xl m-5">
-                                          <div className="flex justify-center items-center w-full h-[300px] sm:h-[500px] sm:w-2/3 p-5">
+                                    <div className="max-w-[1100px] w-full sm:w-full h-auto sm:h-[550px] pb-5 bg-content flex flex-col sm:flex-row items-center justify-center border border-stone-900 rounded-3xl m-5">
+
+                                          <div className="  h-[300px] sm:h-[500px] sm:w-2/3 p-5">
                                                 <img
                                                       src={travel}
                                                       alt="Second Project Preview"
@@ -30,7 +34,7 @@ function Project() {
                                                 />
                                           </div>
                                           <div className="text-zinc-50 w-full text-center flex flex-col items-center sm:order-1 px-4 sm:px-0">
-                                                <p className="text-base sm:text-2xl pb-8 sm:pb-10 text-justify px-4 sm:px-10 pt-5">
+                                                <p className="text-base sm:text-2xl pb-8 sm:pb-10 text-justify px-4 sm:px-10 pt-10">
                                                       This React app is an intuitive, user-friendly web platform showcases the famous picnic spots of Kashmir. Built with React, this website offers a seamless experience for users interested in discovering new destinations, and organizing their journeys
                                                 </p>
                                                 <div className="flex flex-wrap justify-center gap-4 sm:gap-10">
