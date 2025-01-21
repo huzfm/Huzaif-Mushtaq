@@ -6,6 +6,7 @@ import './Project.css';
 import estate from '../assets/estate.png';
 import Swipe from './Swipe';
 import travel from '../assets/travel.png'
+import skill from './../assets/Skill.png'
 
 
 function Project() {
@@ -29,7 +30,7 @@ function Project() {
                                           <div className="  h-[300px] sm:h-[500px] sm:w-2/3 p-5">
                                                 <h1 className='text-white relative top-[30px] lg:top-[100px] text-3xl'>Skill Connect</h1>
                                                 <img
-                                                      src={travel}
+                                                      src={skill}
                                                       alt="Second Project Preview"
                                                       className="max-w-full max-h-full object-contain rounded-lg"
                                                 />
