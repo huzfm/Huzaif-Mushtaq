@@ -7,6 +7,7 @@ import Project from './components/Projects';
 import { Stack } from './components/Stack';
 import Contact from './components/Contact';
 import Loader from './components/Loader';
+import Github from './components/Github';
 
 const App = () => {
   const [loading, setLoading] = useState(true); // Track loading state
@@ -25,6 +26,7 @@ const App = () => {
   return (
     <div>
       <Home />
+      <Github />
       <Intro />
       <Stack />
       <Project />
